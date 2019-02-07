@@ -1,0 +1,12 @@
+.ui.menu{
+    padding: 30px 30px 0px 30px;
+}
+
+.ui.menu .item {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+div img{
+    width: 100% !important
+}
