@@ -1,6 +1,35 @@
 .header {
     background-color: var(--dark-black);
     height: 100%;
-	min-height: 91vh;
-	background-repeat: no-repeat;
+    min-height: 91vh;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 766px) {
+    nav.rotated {
+        position: absolute;
+        text-align: center;
+        -webkit-writing-mode: vertical-lr;
+        -moz-writing-mode: vertical-lr;
+        -ms-writing-mode: vertical-lr;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+    nav.rotated a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0.8em 0.4em;
+        font-size: .75rem;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    nav.rotated a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0.8em 0.4em;
+        font-size: 15px;
+    }
 }

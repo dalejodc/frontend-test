@@ -1,35 +1,34 @@
 <style>
-  @media screen and (min-width: 766px) {
-    nav.rotated {
-      position: absolute;
-      text-align: center;
-      -webkit-writing-mode: vertical-lr;
-      -moz-writing-mode: vertical-lr;
-      -ms-writing-mode: vertical-lr;
-      writing-mode: vertical-lr;
-      transform: rotate(180deg);
-    }
+  .btn {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: .2rem;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 30px;
+  }
 
-    nav.rotated a {
-      color: white;
-      text-decoration: none;
-      display: inline-block;
-      padding: 0.8em 0.4em;
-      font-size: .75rem;
-    }
+  .btn::before {
+    margin-top: -10px;
+    background-color: #5328fe !important;
+    width: 60%;
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: -30%;
+    top: 0;
+    opacity: 1;
+    z-index: -1;
   }
   
-  @media screen and (max-width: 766px) {
-    nav.rotated a {
-      color: white;
-      text-decoration: none;
-      display: inline-block;
-      padding: 0.8em 0.4em;
-      font-size: 15px;
-    }
-  }
 </style>
-
 <div class="header">
   <app-navbar></app-navbar>
 
@@ -42,12 +41,15 @@
       </nav>
     </div>
     <div class="red six wide column ">
-      <h4 class="white-text">Third header</h4>
-      <h1 class="white-text">Third header</h1>
+      <h4 class="white-text">I N T R O D U C T I O N</h4>
+      <h1 class="white-text">Photography is <br>a journey.</h1>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis commodi, aut sint voluptas quisquam,
-        laboriosam nemo repellendus ad vero in excepturi placeat earum doloribus nihil veritatis facere tempora
-        cupiditate.</p>
+      <p>My advice to everyone is to create life, not to consume it. I'm curious to see how many emotions now apper in
+        things created with the help of complex technologies. They are so loaded with different feelings that it is no
+        longer possible to separate emotions and work from the instrument on wich it is done.</p>
+
+      <button class="btn">DISCOVER</button>
+
     </div>
     <div class="orange six wide column"></div>
     <div class="green two wide column center aligned">
