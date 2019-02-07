@@ -3,3 +3,12 @@
 :root {
     --dark-black:#0B0B0B;
 }
+
+.dark-black{
+    background-color: #0B0B0B !important;
+}
+
+.white-text{
+    color: white !important;
+}
+
