@@ -10,3 +10,29 @@
 div img{
     width: 100% !important
 }
+
+.active {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+.active::after {
+    width: 60%;
+    background-color: #5328fe !important;
+    content: '';
+    height: 55%;
+    position: absolute;
+    left: -5%;
+    top: 0;
+    opacity: 1;
+    z-index: -1;
+  }
