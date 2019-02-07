@@ -45,9 +45,22 @@
 
 p {
   line-height: 27px;
-  padding-right: 100px;
+  /* padding-right: 100px; */
   text-align: justify;
   font-size: 13px;
+}
+
+@media screen and (min-width: 900px) {
+   .main-paragraph{
+    width: 30%
+   }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .main-paragraph{
+     width: 80%
+    }
+    
 }
 
 </style>
@@ -62,21 +75,24 @@ p {
         <a href="#">Instagram</a>
       </nav>
     </div>
-    <div class="red five wide column ">
+    <div class="red twelve wide column ">
       <h4 class="white-text little-title">INTRODUCTION</h4>
       <h1 class="white-text title">Photography is <br>a journey.</h1>
 
       <div class="divider"></div>
 
-      <p>My advice to everyone is to create life, not to consume it. I'm curious to see how many emotions now apper in
-        things created with the help of complex technologies. They are so loaded with different feelings that it is no
-        longer possible to separate emotions and work from the instrument on wich it is done.</p>
+      <div class="main-paragraph">
+          <p>My advice to everyone is to create life, not to consume it. I'm curious to see how many emotions now apper in
+              things created with the help of complex technologies. They are so loaded with different feelings that it is no
+              longer possible to separate emotions and work from the instrument on wich it is done.</p>
+
+      </div>
 
 
       <button class="btn">DISCOVER</button>
 
     </div>
-    <div class="orange seven wide column"></div>
+    <!-- <div class="orange seven wide column"></div> -->
     <div class="green two wide column center aligned">
       <nav class="rotated ">
         <a href="#">--------------- EXPLORE MORE</a>
