@@ -1,14 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-    --dark-black:#0B0B0B;
+    --dark-black: #0B0B0B;
+    --violet: #5328fe;
 }
 
-.dark-black{
-    background-color: #0B0B0B !important;
+.dark-black {
+    background-color: var(--dark-black) !important;
 }
 
-.white-text{
+.white-text {
     color: white !important;
 }
 
+.divider {
+    border-top: 2px solid white;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: -40px; 
+}
