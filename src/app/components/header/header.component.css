@@ -1,0 +1,6 @@
+.header {
+    background-color: var(--dark-black);
+    height: 100%;
+	min-height: 91vh;
+	background-repeat: no-repeat;
+}

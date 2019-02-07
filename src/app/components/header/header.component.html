@@ -1,0 +1,61 @@
+<style>
+  @media screen and (min-width: 766px) {
+    nav.rotated {
+      position: absolute;
+      text-align: center;
+      -webkit-writing-mode: vertical-lr;
+      -moz-writing-mode: vertical-lr;
+      -ms-writing-mode: vertical-lr;
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+    }
+
+    nav.rotated a {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.8em 0.4em;
+      font-size: .75rem;
+    }
+  }
+  
+  @media screen and (max-width: 766px) {
+    nav.rotated a {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0.8em 0.4em;
+      font-size: 15px;
+    }
+  }
+</style>
+
+<div class="header">
+  <app-navbar></app-navbar>
+
+  <div class="ui stackable grid ">
+    <div class="green two wide column center aligned">
+      <nav class="rotated">
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </nav>
+    </div>
+    <div class="red six wide column ">
+      <h4 class="white-text">Third header</h4>
+      <h1 class="white-text">Third header</h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis commodi, aut sint voluptas quisquam,
+        laboriosam nemo repellendus ad vero in excepturi placeat earum doloribus nihil veritatis facere tempora
+        cupiditate.</p>
+    </div>
+    <div class="orange six wide column"></div>
+    <div class="green two wide column center aligned">
+      <nav class="rotated ">
+        <a href="#">--------------- EXPLORE MORE</a>
+
+      </nav>
+    </div>
+  </div>
+
+</div>
