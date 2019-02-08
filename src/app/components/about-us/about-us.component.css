@@ -102,12 +102,58 @@
     float: right;
 }
 
-.subtitle{
+/* .subtitle{
     font-family: 'Merriweather', serif;
     font-size: 40px;
     letter-spacing: 4px;
     color: white;
     align-content: center;
+    position:relative;
+}
+
+.subtitle::after{
+    width: 100px;
+    background-color: red;
+    content: '';
+    height: 50%;
+    position: absolute;
+    left: 33%;
+    top: 50%;
+    opacity: 1;
+    z-index: -1;
+} */
+
+.subtitle {
+    /* background-color: transparent; */
+    /* border: 0; */
+    /* border-radius: 0; */
+    color: white;
+    /* cursor: pointer; */
+    /* font-weight: 600; */
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    letter-spacing: .2rem;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.subtitle::before {
+    background-color: #5328fe !important;
+    left: -12px;
+    width: 120%;
+    content: '';
+    height: 40%;
+    position: absolute;
+    top: 60%;
+    opacity: 1;
+    z-index: -1;
 }
 
 .paragrpah-about-us{
