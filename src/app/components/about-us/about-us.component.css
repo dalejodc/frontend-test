@@ -18,7 +18,7 @@
         letter-spacing: 15px;
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        padding-top: 170px;
+        padding-top: 130px;
         z-index: -1;
     }
 }
@@ -80,11 +80,11 @@
 
 .image img {
     position: absolute;
-    width: 30%;
-    top: 300px;
+    width: 28%;
+    top: 250px;
     left: 50%;
-    margin-top: -15%;
-    margin-left: -15%;
+    margin-top: -14%;
+    margin-left: -14%;
     /* Half the width */
 }
 
@@ -102,5 +102,9 @@
 }
 
 .subtitle{
-
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: white;
+    align-content: center;
 }
