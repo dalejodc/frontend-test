@@ -2,13 +2,46 @@
                  ABOUT US STYLES
 **********************************************/
 
-.about-us {
-    background-color: var(--light-black);
-    height: 130%;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    z-index: -5;
-    padding-top: 40px;
+/*Media queries to resize the background section height*/
+@media screen and (min-width: 1200px) {
+    .about-us {
+        background-color: var(--light-black);
+        height: 135%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .about-us {
+        background-color: var(--light-black);
+        height: 180%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 985px) {
+    .about-us {
+        background-color: var(--light-black);
+        height: 150%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .about-us {
+        background-color: var(--light-black);
+        height: 130%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
 }
 
 /*Media querie to resize de font size of the main title*/
@@ -124,12 +157,7 @@
 } */
 
 .subtitle {
-    /* background-color: transparent; */
-    /* border: 0; */
-    /* border-radius: 0; */
     color: white;
-    /* cursor: pointer; */
-    /* font-weight: 600; */
     font-family: 'Merriweather', serif;
     font-size: 40px;
     letter-spacing: 4px;
@@ -171,7 +199,7 @@
 .paragrpah-about-us{
     font-style: oblique;
     color: white !important;
-    line-height: 25px;
+    line-height: 30px;
     margin-top: 50px;
     margin-bottom: 10px;
     padding-left: 10px;
@@ -186,7 +214,7 @@
     transform: rotate(0deg);
     letter-spacing: 2px;
     padding-top: 0px;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 .autor::after{
     width: 4%;
