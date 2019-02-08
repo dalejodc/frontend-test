@@ -4,11 +4,11 @@
 
 .about-us {
     background-color: var(--light-black);
-    height: 100%;
+    height: 130%;
     min-height: 100vh;
     background-repeat: no-repeat;
     z-index: -5;
-    padding-bottom: 30px;
+    padding-top: 40px;
 }
 
 /*Media querie to resize de font size of the main title*/
@@ -146,12 +146,24 @@
 
 .subtitle::before {
     background-color: #5328fe !important;
-    left: -12px;
+    left: -16px;
     width: 120%;
     content: '';
-    height: 40%;
+    height: 33%;
     position: absolute;
     top: 60%;
+    opacity: 1;
+    z-index: -1;
+}
+
+.subtitle::after{
+    /* width: 100%; */
+    border-left: 1px solid white;
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: -150%;
     opacity: 1;
     z-index: -1;
 }
