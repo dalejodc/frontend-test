@@ -17,6 +17,7 @@
         vertical-align: middle;
         margin: 30% 20px 20px 30px;
         position: absolute;
+        /* right:50%; */
         text-align: center;
         -webkit-writing-mode: vertical-lr;
         -moz-writing-mode: vertical-lr;
@@ -47,8 +48,8 @@
 @media screen and (min-width: 766px) {
     .explore{
         color: white;
-        margin-right: -25px;
-        top:50%;
+        margin-right: -15px;
+        top:40%;
         position:relative;
         float:right; 
         transform: rotate(-90deg);
@@ -149,7 +150,7 @@ p {
 /* Media queries to resize de div paragraph box  */
 @media screen and (min-width: 900px) {
     .main-paragraph {
-        width: 33%;
+        width: 34%;
         margin-top: 25px;
     }
 }
