@@ -1,0 +1,10 @@
+/********************************************* 
+                 ABOUT US STYLES
+**********************************************/
+
+.about-us {
+    background-color: var(--light-black);
+    height: 100%;
+    min-height: 91vh;
+    background-repeat: no-repeat;
+}
