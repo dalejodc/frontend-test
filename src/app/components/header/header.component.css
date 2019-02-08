@@ -13,7 +13,9 @@
 
 /* Media queries to rotate the social media menu  */
 @media screen and (min-width: 766px) {
-    nav.rotated {
+    nav.rotated{
+        vertical-align: middle;
+        margin: 30% 20px 20px 30px;
         position: absolute;
         text-align: center;
         -webkit-writing-mode: vertical-lr;
@@ -22,16 +24,15 @@
         writing-mode: vertical-lr;
         transform: rotate(180deg);
     }
-    nav.rotated a {
+    nav.rotated a{
         color: white;
         text-decoration: none;
         display: inline-block;
         padding: 0.8em 0.4em;
-        font-size: .75rem;
+        font-size: 1em;
     }
 }
 
-/* Media queries to rotate the EXPLORE MORE menu */
 @media screen and (max-width: 766px) {
     nav.rotated a {
         color: white;
@@ -40,6 +41,36 @@
         padding: 0.8em 0.4em;
         font-size: 15px;
     }
+}
+
+/* Media queries to rotate the EXPLORE menu  */
+@media screen and (min-width: 766px) {
+    .explore{
+        color: white;
+        letter-spacing: 2px;
+        margin-right: -25px;
+        position:relative;
+        float:right; 
+        transform: rotate(-90deg);
+        margin-top: 100%;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .explore {
+        color: white;
+        letter-spacing: 2px;
+        padding: 0.8em 0.4em;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+nav.rotated a:hover{
+    content: "";
+    background-color: var(--violet);
+    z-index: -1;
+    transition: 1s;
 }
 
 .btn {
