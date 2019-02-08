@@ -3,11 +3,11 @@
 **********************************************/
 
 .ui.menu{
-    padding: 30px 30px 0px 30px;
+    padding: 20px 10px 0px 10px;
 }
 
 .ui.menu .item {
-    padding-right: 30px;
+    padding-right: 10px;
     padding-left: 30px;
 }
 
