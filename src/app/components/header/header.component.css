@@ -47,23 +47,36 @@
 @media screen and (min-width: 766px) {
     .explore{
         color: white;
-        letter-spacing: 2px;
         margin-right: -25px;
+        top:50%;
         position:relative;
         float:right; 
         transform: rotate(-90deg);
-        margin-top: 100%;
+    }
+    .explore::after{
+        width: 45%;
+        border-top: 2px solid white;
+        content: '';
+        height: 55%;
+        position: absolute;
+        left: -60%;
+        top: 50%;
+        opacity: 1;
+        z-index: -1;
     }
 }
 
 @media screen and (max-width: 766px) {
     .explore {
-        color: white;
+        color: blue;
         letter-spacing: 2px;
+        position:relative;
         padding: 0.8em 0.4em;
         font-size: 15px;
         text-align: center;
     }
+
+    
 }
 
 nav.rotated a:hover{
