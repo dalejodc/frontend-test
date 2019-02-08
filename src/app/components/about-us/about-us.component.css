@@ -5,41 +5,78 @@
 .about-us {
     background-color: var(--light-black);
     height: 100%;
-    min-height: 91vh;
+    min-height: 92vh;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: -5;
 }
 
-h1 {
-    color: var(--dark-black-2);
-    /* position: ; */
-    font-size: 200px;
-    color:red;
-    /* background-color: red; */
-    letter-spacing: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding-top: 40px;
-    z-index: -1;
+/*Media querie to resize de font size of the main title*/
+@media screen and (min-width: 900px) {
+    .main-title {
+        color: var(--dark-black-2);
+        font-size: 230px;
+        letter-spacing: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 170px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .main-title  {
+        color: var(--dark-black-2);
+        font-size: 150px;
+        letter-spacing: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 170px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .main-title  {
+        color: var(--dark-black-2);
+        font-size: 100px;
+        letter-spacing: 15px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 170px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main-title  {
+        color: var(--dark-black-2);
+        font-size: 60px;
+        letter-spacing: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding-top: 170px;
+        z-index: -1;
+    }
 }
 
 .image {
     position: relative;
 }
 
-.image::after {
+/* .image::after {
     content: '';
     background: url(../../../assets/violet-dots.svg);
     background-repeat: no-repeat;
     width: 40%;
     height: 40%;
+    margin-top: 300px;
     position: absolute;
     bottom: 0%;
     left: 50%;
     top: 50%;
     opacity: 1;
     z-index: 1;
-}
+} */
 
 .image img {
     position: absolute;
@@ -47,17 +84,23 @@ h1 {
     top: 300px;
     left: 50%;
     margin-top: -15%;
-    margin-left: -15%; /* Half the width */
+    margin-left: -15%;
+    /* Half the width */
 }
 
-.dots{
+.dots {
     position: absolute;
+    /* display: inline; */
     background: url(../../../assets/violet-dots.svg);
     background-repeat: no-repeat;
     z-index: 4;
-    bottom:0;
+    bottom: 0;
     left: 50%;
     width: 100px;
     height: 100px;
-    float:right;
+    float: right;
+}
+
+.subtitle{
+
 }
