@@ -7,4 +7,57 @@
     height: 100%;
     min-height: 91vh;
     background-repeat: no-repeat;
+    z-index: -1;
+}
+
+h1 {
+    color: var(--dark-black-2);
+    /* position: ; */
+    font-size: 200px;
+    color:red;
+    /* background-color: red; */
+    letter-spacing: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    z-index: -1;
+}
+
+.image {
+    position: relative;
+}
+
+.image::after {
+    content: '';
+    background: url(../../../assets/violet-dots.svg);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    z-index: 1;
+}
+
+.image img {
+    position: absolute;
+    width: 30%;
+    top: 300px;
+    left: 50%;
+    margin-top: -15%;
+    margin-left: -15%; /* Half the width */
+}
+
+.dots{
+    position: absolute;
+    background: url(../../../assets/violet-dots.svg);
+    background-repeat: no-repeat;
+    z-index: 4;
+    bottom:0;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    float:right;
 }

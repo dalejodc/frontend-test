@@ -1,7 +1,11 @@
-/* Global styles*/
+/******************************************** 
+              Global styles
+*********************************************/
 
 :root {
     --dark-black: #0B0B0B;
+    --dark-black-2: #0f0f0f;
+    --light-black: #111111;
     --violet: #5328fe;
 }
 
