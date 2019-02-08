@@ -1,3 +1,9 @@
+/********************************************* 
+                 HEADER STYLES
+**********************************************/
+
+/* Header div */
+
 .header {
     background-color: var(--dark-black);
     height: 100%;
@@ -5,6 +11,7 @@
     background-repeat: no-repeat;
 }
 
+/* Media queries to rotate the social media menu  */
 @media screen and (min-width: 766px) {
     nav.rotated {
         position: absolute;
@@ -24,6 +31,7 @@
     }
 }
 
+/* Media queries to rotate the EXPLORE MORE menu */
 @media screen and (max-width: 766px) {
     nav.rotated a {
         color: white;
@@ -31,5 +39,70 @@
         display: inline-block;
         padding: 0.8em 0.4em;
         font-size: 15px;
+    }
+}
+
+.btn {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: .2rem;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.btn::before {
+    margin-top: -10px;
+    background-color: #5328fe !important;
+    width: 93%;
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: -30%;
+    top: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.little-title {
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 4px
+}
+
+p {
+    line-height: 27px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+/* Media queries to resize de div paragraph box  */
+@media screen and (min-width: 900px) {
+    .main-paragraph {
+        width: 33%;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-paragraph {
+        width: 80%;
+        margin-top: 25px;
     }
 }

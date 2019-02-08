@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles*/
 
 :root {
     --dark-black: #0B0B0B;
@@ -15,9 +15,9 @@
 
 .divider {
     border-top: 2px solid white;
-    width: 20%;
+    width: 10%;
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
-    margin-left: -40px; 
+    margin-left: -50px; 
 }
