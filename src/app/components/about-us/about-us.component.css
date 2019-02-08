@@ -115,6 +115,9 @@
     color: white !important;
     line-height: 25px;
     margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .autor{
@@ -124,6 +127,8 @@
     float:center; 
     transform: rotate(0deg);
     letter-spacing: 2px;
+    padding-top: 0px;
+    margin-top: -50px;
 }
 .autor::after{
     width: 4%;
