@@ -9,8 +9,15 @@
     --violet: #5328fe;
 }
 
+.light-black {
+    background-color: var(--light-black) !important;
+}
 .dark-black {
     background-color: var(--dark-black) !important;
+}
+
+.dark-black-2 {
+    background-color: var(--dark-black-2) !important;
 }
 
 .white-text {
