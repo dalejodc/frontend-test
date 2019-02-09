@@ -7,6 +7,17 @@
     padding-top: 40px;
 }
 
+@media screen and (max-width: 991px) {
+    .my-work {
+        background-color: var(--light-black);
+        height: 215%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+
 .title {
     color: white;
     font-family: 'Merriweather', serif;
