@@ -82,7 +82,7 @@
 }
 
 .pricing-title::after {
-    content: '03.';
+    content: '06.';
     color: var(--dark-black-2);
     font-family: 'Poppins', sans-serif;
     font-size: 240px;
@@ -102,4 +102,50 @@
     z-index: 1;
     position: relative;
     padding-left: 160px;
+}
+
+.photography-card {
+    padding: 35px;
+    padding-left: 55px;
+    position: relative;
+  }
+
+  .price-title {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 30px !important;
+    letter-spacing: 4px;
+    line-height: 60px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 30px;
+  }
+
+  .price-title::before {
+    background-color: #5328fe !important;
+    left: -0px;
+    width: 100%;
+    content: '';
+    height: 19%;
+    position: absolute;
+    top: 76%;
+    opacity: 1;
+    z-index: -1;
+}
+
+.price-title::after{
+    width: 10%;
+    border-top: 1px solid white;
+    content: '';
+    height: 50%;
+    position: absolute;
+    left: -20%;
+    top: 50%;
+    opacity: 1;
+    z-index: -1;
 }
