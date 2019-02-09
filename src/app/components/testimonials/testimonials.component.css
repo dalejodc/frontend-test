@@ -1,0 +1,37 @@
+.testimonials {
+    background-color: var(--light-black);
+    height: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -5;
+    padding-top: 40px;
+}
+
+
+.title {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    letter-spacing: .2rem;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.title::after{
+    /* width: 100%; */
+    border-left: 1px solid white;
+    content: '';
+    height: 140%;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    opacity: 1;
+    z-index: -1;
+}
