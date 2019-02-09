@@ -12,6 +12,7 @@
 }
 
 /*Media queries to resize the background section height*/
+
 @media screen and (max-width: 991px) {
     .pricing {
         background-color: var(--light-black);
@@ -21,8 +22,7 @@
         z-index: -5;
         padding-top: 40px;
     }
-
-    .padding-left{
+    .padding-left {
         padding-left: 20%;
     }
 }
@@ -36,21 +36,45 @@
         z-index: -5;
         padding-top: 40px;
     }
-
-    .padding-left{
+    .padding-left {
         padding-left: 8%;
     }
 }
 
 /*Media querie to resize main container in mobile*/
+
 @media screen and (max-width: 537px) {
-    .main{
+    .main {
         left: 60%;
         margin-left: -5% !important;
     }
 }
 
+.photography-card {
+    padding: 35px;
+    padding-left: 50px;
+    position: relative;
+}
 
+.layer {
+    box-shadow: inset 0 0 0 1000px rgba(25, 21, 21, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 110%;
+    height: 110%;
+}
+
+.layer:hover {
+    box-shadow: inset 0 0 0 1000px rgba(14,14,14, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 110%;
+    height: 110%;
+    transition: .3s;
+    transform-origin:left;
+}
 
 .pricing-title {
     color: white;
@@ -104,13 +128,7 @@
     padding-left: 160px;
 }
 
-.photography-card {
-    padding: 35px;
-    padding-left: 55px;
-    position: relative;
-  }
-
-  .price-title {
+.price-title {
     color: white;
     font-family: 'Merriweather', serif;
     font-size: 30px !important;
@@ -124,9 +142,9 @@
     text-decoration: none;
     z-index: 1;
     margin-top: 30px;
-  }
+}
 
-  .price-title::before {
+.price-title::before {
     background-color: #5328fe !important;
     left: -0px;
     width: 100%;
@@ -138,22 +156,51 @@
     z-index: -1;
 }
 
-.price-title::after{
+.price-title::after {
     width: 10%;
     border-top: 1px solid white;
     content: '';
     height: 50%;
     position: absolute;
-    left: -20%;
+    left: 0%;
     top: 50%;
     opacity: 1;
     z-index: -1;
 }
 
-#img1 {
+/* Images grid */
+
+#model {
     width: 100%;
     height: 100%;
-    background-image:url("https://images.pexels.com/photos/247206/pexels-photo-247206.jpeg?cs=srgb&dl=adult-attractive-beautiful-247206.jpg&fm=jpg");
+    background-image: url("https://images.pexels.com/photos/247206/pexels-photo-247206.jpeg?cs=srgb&dl=adult-attractive-beautiful-247206.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#event {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/59884/pexels-photo-59884.jpeg?cs=srgb&dl=ball-cheers-crowd-59884.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#corporate {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#movies {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/1046151/pexels-photo-1046151.jpeg?cs=srgb&dl=action-adult-auto-racing-1046151.jpg&fm=jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
