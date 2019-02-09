@@ -1,0 +1,43 @@
+.my-work {
+    background-color: var(--light-black);
+    height: 135%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -5;
+    padding-top: 40px;
+}
+
+.subtitle {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    letter-spacing: 6px;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.subtitle::before {
+
+    border-bottom: 1px solid white;
+    left: -55px;
+    width: 40%;
+    content: '';
+    height: 33%;
+    position: absolute;
+    top: 110%;
+    opacity: 1;
+    z-index: -1;
+}
+
+.photo-paragraph p{
+    margin-top: 40px;
+    color: white;
+    line-height: 30px;
+}
