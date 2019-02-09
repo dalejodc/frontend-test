@@ -1,3 +1,7 @@
+/********************************************* 
+                 MY WORKS STYLES
+**********************************************/
+
 .my-work {
     background-color: var(--light-black);
     height: 135%;
@@ -7,6 +11,7 @@
     padding-top: 40px;
 }
 
+/*Media queries to resize the background section height*/
 @media screen and (max-width: 991px) {
     .my-work {
         background-color: var(--light-black);
@@ -15,6 +20,25 @@
         background-repeat: no-repeat;
         z-index: -5;
         padding-top: 40px;
+    }
+
+    .padding-left{
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .my-work {
+        background-color: var(--light-black);
+        height: 225%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+
+    .padding-left{
+        padding-left: 8%;
     }
 }
 
