@@ -50,8 +50,7 @@
     }
 }
 
-
-
+/* Work section title */
 .title {
     color: white;
     font-family: 'Merriweather', serif;
@@ -95,6 +94,7 @@
     z-index: -2;
 }
 
+/* Works section paragraph */
 .photo-paragraph p {
     margin-top: 40px;
     color: white;
@@ -104,13 +104,7 @@
     padding-left: 160px;
 }
 
-/* .summary h3{
-    font-size: 40px;
-    font-family: 'Merriweather', serif;
-    letter-spacing: 5px;
-    position: relative;
-} */
-
+/* Summary works styles */
 .summary {
     color: white;
     font-family: 'Merriweather', serif;
@@ -162,10 +156,12 @@
     z-index: -1;
 }
 
+/*  */
 .photo-work{
-    height: 150px;
+    height: 190px;
 }
 
+/* To opaque the image */
 .layer {
     box-shadow: inset 0 0 0 1000px rgba(25, 21, 21, 0.31);
     top: 0;
@@ -175,7 +171,9 @@
     height: 110%;
 }
 
+/* To use it in hover */
 .overlay {
+    padding-top: 28px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -185,19 +183,41 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgb(33,33,33, 0.7);
+    background-color: rgb(33,33,33, 0.8);
   }
   
   .photo-work:hover .overlay {
     opacity: 1;
   }
+
+.photo-attribute {
+    color: #e0e0e0;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-left: 35px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.photo-detail {
+    margin-top: 3px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
   
   .text {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 10%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
