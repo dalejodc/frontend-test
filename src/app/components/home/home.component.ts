@@ -10,13 +10,13 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.active();
+    // this.active();
   }
 
-  ngOnDestroy(): void {
-    var element = document.getElementById("home");
-    element.classList.remove("active");
-  }
+  // ngOnDestroy(): void {
+  //   var element = document.getElementById("home");
+  //   element.classList.remove("active");
+  // }
 
   active() {
     var element = document.getElementById("home");

@@ -13,6 +13,7 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { ClientsComponent } from './components/clients/clients.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     PricingComponent,
     ClientsComponent,
     NewsletterComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
