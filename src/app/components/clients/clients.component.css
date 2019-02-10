@@ -9,57 +9,10 @@
     background-repeat: no-repeat;
     z-index: -5;
     padding-top: 40px;
+    padding-bottom: 140px;
 }
 
-/* Media querie to resize the padding */
-@media screen and (max-width: 768px) {
-    .clients-section {
-        margin-top: 135%; 
-        padding-top: 100px;
-        height: 100%;
-         background-color: var(--light-black);
-        min-height: 100vh;
-        z-index: -5;
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 707px) {
-    .clients-section {
-        margin-top: 165%; 
-        padding-top: 100px;
-        height: 100%;
-         background-color: var(--light-black);
-        min-height: 100vh;
-        z-index: -5;
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 573px) {
-    .clients-section {
-        margin-top: 195%; 
-        padding-top: 100px;
-        height: 100%;
-         background-color: var(--light-black);
-        min-height: 100vh;
-        z-index: -5;
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 448px) {
-    .clients-section {
-        margin-top: 225%; 
-        padding-top: 100px;
-        height: 125%;
-         background-color: var(--light-black);
-        min-height: 125vh;
-        z-index: -5;
-        padding-top: 40px;
-    }
-}
-
+/* To fit the img to the container */
 img{
     width: 100%;
     object-fit: contain;

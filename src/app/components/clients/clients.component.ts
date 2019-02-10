@@ -15,7 +15,7 @@ export class ClientsComponent implements OnInit {
   public innerWidth: any;
 
   ngOnInit() {
-    this.checkSize();
+    // this.checkSize();
   }
 
   checkSize(){

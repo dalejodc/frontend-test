@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     z-index: -5;
     padding-top: 40px;
+    position: relative; /*To overlaping with the next section */
 }
 
 /*Media queries to resize the background section height*/
@@ -27,10 +28,24 @@
     }
 }
 
+@media screen and (max-width: 766px) {
+    .pricing-section {
+        background-color: var(--light-black);
+        height: 345%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+    .padding-left {
+        padding-left: 8%;
+    }
+}
+
 @media screen and (max-width: 460px) {
     .pricing-section {
         background-color: var(--light-black);
-        height: 225%;
+        height: 355%;
         min-height: 100vh;
         background-repeat: no-repeat;
         z-index: -5;
