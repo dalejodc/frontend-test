@@ -258,21 +258,40 @@
     z-index: -1;
 }
 
-/*  */
+/* Photo work image and grid */
 
 .photo-work {
     height: 190px;
 }
 
+.gallery-grid{
+    margin-top: 9%;
+}
+
+/* Photo work image and grid media queries */
 @media screen and (max-width: 985px) {
     .photo-work {
         height: 130px;
+    }
+
+    .gallery-grid{
+        margin-top: 18%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo-work {
         height: 60px;
+    }
+
+    .gallery-grid{
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width: 342px) {
+       .gallery-grid{
+        margin-top: 35%;
     }
 }
 
