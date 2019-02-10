@@ -1,0 +1,9 @@
+.contact-section {
+    width: 100%;
+    height: -webkit-fit-content;
+    width: 100%;
+    height: -moz-fit-content;
+    padding-bottom: 20%;
+    background-color: blue;
+    word-break: break-all;
+}

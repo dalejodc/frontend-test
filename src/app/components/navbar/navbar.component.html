@@ -1,11 +1,15 @@
-<div class="ui menu dark-black">
-  <div class="item">
-    <img src="../../../assets/logo.svg" width="100%">
-  </div>
-  <div class="right item">
-    <a class="item white-text" [routerLink]="['/home']" routerLinkActive="active">Home</a>
-    <a class="item white-text" [routerLink]="['/about-us']" routerLinkActive="active">About Me</a>
-    <a class="item white-text">Journal</a>
-    <a class="item white-text" routerLink='/contact' routerLinkActive="active">Contact</a>
-  </div>
-</div>
+<!-- ------------------------------------ 
+          NAVBAR COMPONENT
+ ------------------------------------ -->
+<ul>
+  <li><a href="#news">News</a></li>
+  <li><a [routerLink]="['/contact']" routerLinkActive="active">Contact.</a></li>
+  <li><a [routerLink]="['/journal']" routerLinkActive="active">Journal.</a></li>
+  <li><a [routerLink]="['/works']" routerLinkActive="active">Works.</a></li>
+  <li><a [routerLink]="['/about-me']" routerLinkActive="active">About me.</a></li>
+  <li><a [routerLink]="['/home']" routerLinkActive="active">Home.</a></li>
+  <li style="float:left"><a [routerLink]="['/']" >
+      <img src="../../../assets/logo.svg" width="100%">
+    </a></li>
+</ul>
+

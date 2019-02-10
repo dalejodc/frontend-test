@@ -2,7 +2,7 @@
                  HEADER STYLES
 **********************************************/
 
-.ui.menu{
+/* .ui.menu{
     padding: 20px 10px 0px 10px;
     position: relative;
     z-index: 1;
@@ -16,6 +16,7 @@
 .ui.menu .item {
     padding-right: 10px;
     padding-left: 30px;
+    margin-left: 40px;
 }
 
 div img{
@@ -35,9 +36,8 @@ div img{
     position: relative;
     text-decoration: none;
     z-index: 1;
-    /* transition: width 2s; */
-}
-
+}*/
+/* 
 .ui.menu a.item:hover::after {
     width: 100%;
     background-color: #5328fe !important;
@@ -48,17 +48,57 @@ div img{
     top: -50%;
     opacity: 1;
     z-index: -1;
-    /* transition: width 2s;
-    -webkit-transition: width 2s; */
-}
+    transition: width 2s;
+    -webkit-transition: width 2s;
+} */
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px 0px 20px;
+    overflow: hidden;
+    background-color: transparent;
+    z-index: -2;
+  }
 
-.active {
-    /* background-color: red; */
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    display: block;
+    background-color: #5328fe !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover::before {
+    width: 60%;
+    /* background-color: green !important; */
+    content: '';
+    height: 55%;
+    position: absolute;
+    left: -50%;
+    top: 0;
+    /* opacity: 1; */
+    z-index: -1;
+  }
+
+  .active {
     border: 0;
     border-radius: 0;
     color: white;
     cursor: pointer;
-    font-weight: 600;
+    /* font-weight: 600; */
     display: inline-block;
     padding: 4px 0;
     position: relative;
@@ -67,13 +107,13 @@ div img{
   }
 
 .active::after {
-    width: 60%;
+    width: 50%;
     background-color: #5328fe !important;
     content: '';
     height: 55%;
     position: absolute;
-    left: -5%;
+    right: 50%;
     top: 0;
-    /* opacity: 1; */
+    opacity: 1;
     z-index: -1;
-  }
+  } 
