@@ -1,0 +1,40 @@
+/********************************************* 
+                NEWSLETTER SECTION STYLES
+**********************************************/
+
+.newsletter-section {
+    background-color: var(--light-black);
+    height: 100%; 
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -5;
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+.newsletter-title {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 34px;
+    letter-spacing:6px;
+    line-height: 50px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.newsletter-title::before {
+    border-left: 1px solid white;
+    left: 50%;
+    content: '';
+    height: 40%;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    z-index: -1;
+}
