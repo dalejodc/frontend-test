@@ -2,18 +2,30 @@
                  HEADER STYLES
 **********************************************/
 
-/* Header div */
+/* Header section */
 
-.header {
-    background-color: var(--dark-black);
-    height: 100%;
-    min-height: 91vh;
-    background-repeat: no-repeat;
+.header-section {
+    width: 100%;
+    height: -webkit-fit-content;
+    width: 100%;
+    height: -moz-fit-content;
+    padding-bottom: 12%;
+    background-color: teal;
+}
+
+/* Socian nav */
+
+nav.social a:hover {
+    content: "";
+    background-color: var(--violet);
+    z-index: -1;
+    transition: 1s;
 }
 
 /* Media queries to rotate the social media menu  */
+
 @media screen and (min-width: 766px) {
-    nav.rotated{
+    nav.social {
         vertical-align: middle;
         margin: 30% 20px 20px 30px;
         position: absolute;
@@ -25,7 +37,7 @@
         writing-mode: vertical-lr;
         transform: rotate(180deg);
     }
-    nav.rotated a{
+    nav.social a {
         color: white;
         text-decoration: none;
         display: inline-block;
@@ -35,7 +47,7 @@
 }
 
 @media screen and (max-width: 766px) {
-    nav.rotated a {
+    nav.social a {
         color: white;
         text-decoration: none;
         display: inline-block;
@@ -44,17 +56,74 @@
     }
 }
 
+/* Titles */
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 4px
+}
+
+.sub-title {
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 427px) {
+    .title {
+        font-family: 'Merriweather', serif;
+        font-size: 25px;
+        letter-spacing: 3px
+    }
+}
+
+p {
+    line-height: 27px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+/* Media queries to resize de div paragraph box  */
+
+@media screen and (min-width: 900px) {
+    .main-paragraph {
+        width: 34%;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-paragraph {
+        width: 80%;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .main-paragraph {
+        width: 80%;
+        margin-top: 25px;
+        padding-right: 55px;
+    }
+}
+
+/* Explore nav  */
 /* Media queries to rotate the EXPLORE menu  */
+
 @media screen and (min-width: 766px) {
-    .explore{
+    .explore {
         color: white;
         margin-right: -15px;
-        top:40%;
-        position:relative;
-        float:right; 
+        top: 40%;
+        position: relative;
+        float: right;
         transform: rotate(-90deg);
     }
-    .explore::after{
+    .explore::after {
         width: 45%;
         border-top: 2px solid white;
         content: '';
@@ -68,14 +137,14 @@
 }
 
 @media screen and (max-width: 766px) {
-    .explore{
+    .explore {
         color: white;
-        top:50%;
-        position:relative;
-        float:center; 
+        top: 50%;
+        position: relative;
+        float: center;
         transform: rotate(0deg);
     }
-    .explore::after{
+    .explore::after {
         width: 45%;
         border-top: 2px solid white;
         content: '';
@@ -86,16 +155,9 @@
         opacity: 1;
         z-index: -1;
     }
-
-    
 }
 
-nav.rotated a:hover{
-    content: "";
-    background-color: var(--violet);
-    z-index: -1;
-    transition: 1s;
-}
+/* Button */
 
 .btn {
     background-color: transparent;
@@ -124,56 +186,4 @@ nav.rotated a:hover{
     top: 0;
     opacity: 1;
     z-index: -1;
-}
-
-.little-title {
-    font-family: Poppins, sans-serif;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}
-
-.title {
-    font-family: 'Merriweather', serif;
-    font-size: 40px;
-    letter-spacing: 4px
-}
-
-@media screen and (max-width: 427px) {
-    .title {
-        font-family: 'Merriweather', serif;
-        font-size: 25px;
-        letter-spacing: 3px
-    }
-}
-
-p {
-    line-height: 27px;
-    text-align: justify;
-    font-size: 13px;
-}
-
-/* Media queries to resize de div paragraph box  */
-@media screen and (min-width: 900px) {
-    .main-paragraph {
-        width: 34%;
-        margin-top: 25px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .main-paragraph {
-        width: 80%;
-        margin-top: 25px;
-    }
-}
-
-@media screen and (max-width: 445px) {
-    .main-paragraph {
-        width: 80%;
-        margin-top: 25px;
-        padding-right: 55px;
-    }
 }
