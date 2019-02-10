@@ -4,13 +4,14 @@
 
 /* About Us section */
 .about-us-section {
-    width: 100%;
+    width: -webkit-fit-content;
     height: -webkit-fit-content;
-    width: 100%;
+    width: -moz-fit-content;
     height: -moz-fit-content;
     padding-bottom: 20%;
-    background-color: blue;
+    background-color: red;
     word-break: break-all;
+    /*word-break: break-all;*/ 
 }
 
 /*Media querie to resize de font size of the main title*/

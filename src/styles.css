@@ -38,3 +38,7 @@
     position: relative;
     margin-left: -50px; 
 }
+
+.ui.grid {
+    margin-right: 0px !important;
+}
