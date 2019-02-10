@@ -11,6 +11,7 @@ import { MyWorkComponent } from './components/my-work/my-work.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { ClientsComponent } from './components/clients/clients.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ClientsComponent } from './components/clients/clients.component';
     MyWorkComponent,
     TestimonialsComponent,
     PricingComponent,
-    ClientsComponent
+    ClientsComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
