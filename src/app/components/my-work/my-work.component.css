@@ -290,8 +290,8 @@
 }
 
 @media screen and (max-width: 342px) {
-       .gallery-grid{
-        margin-top: 35%;
+    .gallery-grid{
+        margin-top: 75%;
     }
 }
 
