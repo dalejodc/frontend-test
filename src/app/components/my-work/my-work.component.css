@@ -12,47 +12,9 @@
     background-color: green;
 }
 
-/*Media queries to resize padding summary works*/
-
-.summary-grid{
-    margin-top: 35% !important;
-    margin-left: 15%;
-}
-
-@media screen and (max-width: 991px) {
-    .summary-grid {
-        margin-top: 850px !important;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .summary-grid {
-        margin-left: 265px !important;
-        margin-top: 1850px !important;
-    }
-}
-
- @media screen and (max-width: 562px) {
-    .summary-grid {
-        margin-left: 135px !important;
-        margin-top: 1850px !important;
-    }
-}
-/*
-@media screen and (max-width: 460px) {
-    .summary-grid {
-        padding-left: 20%;
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .summary-grid {
-        padding-left: 4%;
-    }
-} */
-
-
-/* Work section title */
+/* ----------------------------------------------------
+                    Work section title 
+---------------------------------------------------- */
 
 .title {
     color: white;
@@ -127,8 +89,9 @@
     z-index: -2;
 }
 
-/* Works section paragraph */
-
+/* ---------------------------------------------------- 
+            Works section paragraph 
+----------------------------------------------------*/
 .paragraph p {
     margin-top: 40px;
     color: white;
@@ -149,87 +112,9 @@
     }
 }
 
-/* Summary works styles */
-
-/* #sumary-work {
-    margin-top: 400px;
-    margin-left: 4%
-}
-
-@media screen and (min-width: 993px) {
-    #summary-work {
-        margin-top: 450px;
-        margin-left: 4%
-    }
-}
-
-@media screen and (max-width: 992px) {
-    #summary-work {
-        margin-top: 800px;
-        margin-left: 4%
-    }
-}
-
-@media screen and (max-width: 767px) {
-    #summary-work {
-        margin-top: 1850px;
-        margin-left: -15%
-    }
-} */
-
-.summary-count {
-    color: white;
-    font-family: 'Merriweather', serif;
-    font-size: 30px;
-    letter-spacing: 4px;
-    color: white;
-    align-content: center;
-    display: inline-block;
-    letter-spacing: 6px;
-    padding: 4px 0;
-    position: relative;
-    text-decoration: none;
-    z-index: 1;
-    margin-top: 70px;
-    /* padding-left: 160px; */
-}
-
-.summary-description {
-    position: absolute;
-    color: white;
-    font-family: 'Poppins', serif;
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-top: -8px;
-    padding-top: -10px;
-}
-
-.summary-count::before {
-    border-bottom: 1px solid white;
-    left: -70px;
-    width: 60px;
-    content: '';
-    height: 33%;
-    position: absolute;
-    top: 55%;
-    opacity: 1;
-    z-index: -1;
-}
-
-.summary-count ::after {
-    background-color: #5328fe !important;
-    left: 0px;
-    width: 100%;
-    content: '';
-    height: 33%;
-    position: absolute;
-    top: 57%;
-    opacity: 1;
-    z-index: -1;
-}
-
-/* Photo work image and grid */
+/* ---------------------------------------------------- 
+            Photo work image and grid 
+----------------------------------------------------*/
 
 .photo-work {
     height: 190px;
@@ -278,7 +163,6 @@
 }
 
 /* To use it in hover */
-
 .overlay {
     padding-top: 28px;
     position: absolute;
@@ -304,7 +188,7 @@
     letter-spacing: 1px;
     font-size: 10px;
     margin-left: 35px;
-    margin-top: 10px;
+    margin-top: 0px !important;
     text-transform: uppercase;
 }
 
@@ -331,6 +215,7 @@
     text-align: center;
 }
 
+/* Work images examples */
 #work1 {
     width: 100%;
     height: 100%;
@@ -384,3 +269,86 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* ----------------------------------------------------
+        SUMMARY WORKS GRID
+----------------------------------------------------*/
+.summary-grid{
+    margin-top: 35% !important;
+    margin-left: 15%;
+}
+
+/*Media queries to resize padding summary works*/
+@media screen and (max-width: 991px) {
+    .summary-grid {
+        margin-top: 850px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .summary-grid {
+        margin-left: 265px !important;
+        margin-top: 1850px !important;
+    }
+}
+
+ @media screen and (max-width: 562px) {
+    .summary-grid {
+        margin-left: 135px !important;
+        margin-top: 1850px !important;
+    }
+}
+
+.summary-count {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    letter-spacing: 6px;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 70px;
+    /* padding-left: 160px; */
+}
+
+.summary-description {
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: -8px;
+    padding-top: -10px;
+}
+
+.summary-count::before {
+    border-bottom: 1px solid white;
+    left: -70px;
+    width: 60px;
+    content: '';
+    height: 33%;
+    position: absolute;
+    top: 55%;
+    opacity: 1;
+    z-index: -1;
+}
+
+.summary-count ::after {
+    background-color: #5328fe !important;
+    left: 0px;
+    width: 100%;
+    content: '';
+    height: 33%;
+    position: absolute;
+    top: 57%;
+    opacity: 1;
+    z-index: -1;
+}
+
