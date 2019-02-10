@@ -4,19 +4,51 @@
 
 .my-work {
     background-color: var(--light-black);
-    height: 135%;
+    height: 205%;
     min-height: 100vh;
+    margin: auto;
     background-repeat: no-repeat;
     z-index: -5;
     padding-top: 40px;
+    /* position: absolute; */
 }
 
-/*Media queries to resize the background section height*/
+/*Media queries to resize the background and padding section height*/
 @media screen and (max-width: 991px) {
     .my-work {
         background-color: var(--light-black);
-        height: 215%;
-        min-height: 100vh;
+        height: 295%;
+        min-height: 200vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+
+    .padding-left{
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .my-work {
+        background-color: var(--light-black);
+        height: 445%;
+        min-height: 200vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 40px;
+    }
+
+    .padding-left{
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .my-work {
+        background-color: var(--light-black);
+        height: 435%;
+        min-height: 200vh;
         background-repeat: no-repeat;
         z-index: -5;
         padding-top: 40px;
@@ -30,8 +62,8 @@
 @media screen and (max-width: 460px) {
     .my-work {
         background-color: var(--light-black);
-        height: 225%;
-        min-height: 100vh;
+        height: 435%;
+        min-height: 200vh;
         background-repeat: no-repeat;
         z-index: -5;
         padding-top: 40px;
@@ -105,6 +137,22 @@
 }
 
 /* Summary works styles */
+#sumarry-work{
+    margin-top: 400px; 
+    margin-left: 4%
+}
+@media screen and (max-width: 985px) {
+    #sumarry-work{
+        margin-top: 850px; 
+        margin-left: 4%
+    }
+}
+@media screen and (max-width: 767px) {
+    #sumarry-work{
+        margin-top: 1850px; 
+        margin-left: -15%
+    }
+}
 .summary {
     color: white;
     font-family: 'Merriweather', serif;
@@ -118,7 +166,7 @@
     position: relative;
     text-decoration: none;
     z-index: 1;
-    margin-top: 30px;
+    margin-top: 70px;
     padding-left: 160px;
 }
 .summary-subtitle {
@@ -159,6 +207,18 @@
 /*  */
 .photo-work{
     height: 190px;
+}
+
+@media screen and (max-width: 985px) {
+    .photo-work{
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-work{
+        height: 60px;
+    }
 }
 
 /* To opaque the image */
