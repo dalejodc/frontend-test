@@ -110,10 +110,6 @@
     }
 }
 
-.image {
-    /* position: relative; */
-}
-
 .image img {
     position: absolute;
     width: 28%;
@@ -135,40 +131,6 @@
         /* Half the width */
     }
 }
-
-.dots {
-    position: absolute;
-    /* display: inline; */
-    background: url(../../../assets/violet-dots.svg);
-    background-repeat: no-repeat;
-    z-index: 4;
-    bottom: 0;
-    left: 50%;
-    width: 100px;
-    height: 100px;
-    float: right;
-}
-
-/* .subtitle{
-    font-family: 'Merriweather', serif;
-    font-size: 40px;
-    letter-spacing: 4px;
-    color: white;
-    align-content: center;
-    position:relative;
-}
-
-.subtitle::after{
-    width: 100px;
-    background-color: red;
-    content: '';
-    height: 50%;
-    position: absolute;
-    left: 33%;
-    top: 50%;
-    opacity: 1;
-    z-index: -1;
-} */
 
 .subtitle {
     color: white;
@@ -211,13 +173,13 @@
 }
 
 .paragrpah-about-us {
-    font-style: oblique;
-    color: white !important;
+    margin-top: 40px;
+    color: white;
     line-height: 30px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+    font-style: italic;
 }
 
 .autor {
