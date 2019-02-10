@@ -3,6 +3,7 @@
 **********************************************/
 
 /*Media queries to resize the background section height*/
+
 @media screen and (min-width: 1200px) {
     .about-us {
         background-color: var(--light-black);
@@ -13,6 +14,7 @@
         padding-top: 40px;
     }
 }
+
 @media screen and (max-width: 1200px) {
     .about-us {
         background-color: var(--light-black);
@@ -23,6 +25,7 @@
         padding-top: 40px;
     }
 }
+
 @media screen and (max-width: 985px) {
     .about-us {
         background-color: var(--light-black);
@@ -30,9 +33,10 @@
         min-height: 100vh;
         background-repeat: no-repeat;
         z-index: -5;
-        padding-top: 40px;
+        padding-top: 8%;
     }
 }
+
 @media screen and (max-width: 580px) {
     .about-us {
         background-color: var(--light-black);
@@ -40,11 +44,23 @@
         min-height: 100vh;
         background-repeat: no-repeat;
         z-index: -5;
-        padding-top: 40px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .about-us {
+        background-color: var(--light-black);
+        height: 130%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        margin-top: 0px;
     }
 }
 
 /*Media querie to resize de font size of the main title*/
+
 @media screen and (min-width: 900px) {
     .main-title {
         color: var(--dark-black-2);
@@ -58,7 +74,7 @@
 }
 
 @media screen and (max-width: 890px) {
-    .main-title  {
+    .main-title {
         color: var(--dark-black-2);
         font-size: 150px;
         letter-spacing: 15px;
@@ -70,7 +86,7 @@
 }
 
 @media screen and (max-width: 580px) {
-    .main-title  {
+    .main-title {
         color: var(--dark-black-2);
         font-size: 100px;
         letter-spacing: 15px;
@@ -82,44 +98,42 @@
 }
 
 @media screen and (max-width: 420px) {
-    .main-title  {
+    .main-title {
         color: var(--dark-black-2);
         font-size: 60px;
         letter-spacing: 10px;
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        padding-top: 170px;
+        padding-top: 80px;
+        /* margin-top: 30px; */
         z-index: -1;
     }
 }
 
 .image {
-    position: relative;
+    /* position: relative; */
 }
-
-/* .image::after {
-    content: '';
-    background: url(../../../assets/violet-dots.svg);
-    background-repeat: no-repeat;
-    width: 40%;
-    height: 40%;
-    margin-top: 300px;
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    top: 50%;
-    opacity: 1;
-    z-index: 1;
-} */
 
 .image img {
     position: absolute;
     width: 28%;
-    top: 250px;
+    top: 50%;
     left: 50%;
     margin-top: -14%;
     margin-left: -14%;
     /* Half the width */
+}
+
+@media screen and (max-width: 420px) {
+    .image img {
+        position: absolute;
+        width: 25%;
+        top: 50%;
+        left: 50%;
+        margin-top: -14%;
+        margin-left: -14%;
+        /* Half the width */
+    }
 }
 
 .dots {
@@ -184,7 +198,7 @@
     z-index: -1;
 }
 
-.subtitle::after{
+.subtitle::after {
     /* width: 100%; */
     border-left: 1px solid white;
     content: '';
@@ -196,7 +210,7 @@
     z-index: -1;
 }
 
-.paragrpah-about-us{
+.paragrpah-about-us {
     font-style: oblique;
     color: white !important;
     line-height: 30px;
@@ -206,17 +220,31 @@
     padding-right: 10px;
 }
 
-.autor{
+.autor {
     color: white;
-    top:50%;
-    position:relative;
-    float:center; 
+    top: 30%;
+    position: relative;
+    float: center;
     transform: rotate(0deg);
     letter-spacing: 2px;
     padding-top: 0px;
-    margin-top: -70px;
+    margin-top: 15px;
 }
-.autor::after{
+
+@media screen and (max-width: 420px) {
+    .autor {
+        color: white;
+        top: 8%;
+        position: relative;
+        float: center;
+        transform: rotate(0deg);
+        letter-spacing: 2px;
+        padding-top: 0px;
+        margin-top: 15px;
+    }
+}
+
+.autor::after {
     width: 4%;
     border-top: 2px solid white;
     content: '';
