@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     z-index: -5;
     padding-top: 40px;
-    position: relative; /*To overlaping with the next section */
+    /* position: relative; To overlaping with the next section */
 }
 
 /*Media queries to resize the background section height*/
@@ -132,7 +132,7 @@
 }
 
 .layer {
-    box-shadow: inset 0 0 0 1000px rgba(25, 21, 21, 0.5);
+    box-shadow: inset 0 0 0 1000px rgba(25, 21, 21, 0.6);
     top: 0;
     bottom: 0;
     left: 0;
@@ -233,6 +233,24 @@
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 12px;
+    align-content: center;
+    padding: 0px 0;
+    margin-top: 0;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.explore:hover {
+    color: white;
+    right: 0;
+    bottom: 0;
+    margin-top: 3px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: .2s;
     align-content: center;
     padding: 0px 0;
     margin-top: 0;
