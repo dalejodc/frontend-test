@@ -5,26 +5,26 @@
 .my-work {
     background-color: var(--light-black);
     height: 205%;
-    min-height: 100vh;
+    min-height: 230vh;
     margin: auto;
     background-repeat: no-repeat;
     z-index: -5;
-    padding-top: 40px;
+    padding-top: 30%;
     /* position: absolute; */
 }
 
 /*Media queries to resize the background and padding section height*/
+
 @media screen and (max-width: 991px) {
     .my-work {
         background-color: var(--light-black);
-        height: 295%;
+        height: 315%;
         min-height: 200vh;
         background-repeat: no-repeat;
         z-index: -5;
-        padding-top: 40px;
+        padding-top: 40%;
     }
-
-    .padding-left{
+    .padding-left {
         padding-left: 20%;
     }
 }
@@ -36,10 +36,9 @@
         min-height: 200vh;
         background-repeat: no-repeat;
         z-index: -5;
-        padding-top: 40px;
+        padding-top: 50%;
     }
-
-    .padding-left{
+    .padding-left {
         padding-left: 25%;
     }
 }
@@ -53,8 +52,7 @@
         z-index: -5;
         padding-top: 40px;
     }
-
-    .padding-left{
+    .padding-left {
         padding-left: 20%;
     }
 }
@@ -62,27 +60,29 @@
 @media screen and (max-width: 460px) {
     .my-work {
         background-color: var(--light-black);
-        height: 435%;
-        min-height: 200vh;
+        height: 465%;
+        min-height: 300vh;
         background-repeat: no-repeat;
         z-index: -5;
-        padding-top: 40px;
+        padding-top: 105%;
+        margin-left: -20%;
     }
-
-    .padding-left{
-        padding-left: 8%;
+    .padding-left {
+        padding-left: 4%;
     }
 }
 
 /*Media querie to resize main container in mobile*/
-@media screen and (max-width: 537px) {
+
+/* @media screen and (max-width: 537px) {
     .main{
         left: 60%;
         margin-left: -5% !important;
     }
-}
+} */
 
 /* Work section title */
+
 .title {
     color: white;
     font-family: 'Merriweather', serif;
@@ -98,6 +98,36 @@
     z-index: 1;
     margin-top: 30px;
     padding-left: 160px;
+}
+
+@media screen and (max-width: 537px) {
+    .title {
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-size: 40px;
+        letter-spacing: 4px;
+        color: white;
+        align-content: center;
+        display: inline-block;
+        letter-spacing: 6px;
+        padding: 4px 0;
+        position: relative;
+        text-decoration: none;
+        z-index: 1;
+        margin-top: 30px;
+        padding-left: 40px;
+    }
+    .title::before {
+        border-bottom: 1px solid white;
+        left: -5px !important;
+        width: 25%;
+        content: '';
+        height: 33%;
+        position: absolute;
+        top: 110%;
+        opacity: 1;
+        z-index: -1;
+    }
 }
 
 .title::before {
@@ -127,6 +157,7 @@
 }
 
 /* Works section paragraph */
+
 .photo-paragraph p {
     margin-top: 40px;
     color: white;
@@ -136,23 +167,45 @@
     padding-left: 160px;
 }
 
+@media screen and (max-width: 537px) {
+    .photo-paragraph p {
+        margin-top: 40px;
+        color: white;
+        line-height: 30px;
+        z-index: 1;
+        position: relative;
+        padding-left: 40px;
+    }
+}
+
 /* Summary works styles */
-#sumarry-work{
-    margin-top: 400px; 
+
+#sumary-work {
+    margin-top: 400px;
     margin-left: 4%
 }
-@media screen and (max-width: 985px) {
-    #sumarry-work{
-        margin-top: 850px; 
+
+@media screen and (min-width: 993px) {
+    #summary-work {
+        margin-top: 450px;
         margin-left: 4%
     }
 }
+
+@media screen and (max-width: 992px) {
+    #summary-work {
+        margin-top: 800px;
+        margin-left: 4%
+    }
+}
+
 @media screen and (max-width: 767px) {
-    #sumarry-work{
-        margin-top: 1850px; 
+    #summary-work {
+        margin-top: 1850px;
         margin-left: -15%
     }
 }
+
 .summary {
     color: white;
     font-family: 'Merriweather', serif;
@@ -169,6 +222,7 @@
     margin-top: 70px;
     padding-left: 160px;
 }
+
 .summary-subtitle {
     position: absolute;
     color: white;
@@ -205,23 +259,25 @@
 }
 
 /*  */
-.photo-work{
+
+.photo-work {
     height: 190px;
 }
 
 @media screen and (max-width: 985px) {
-    .photo-work{
+    .photo-work {
         height: 130px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .photo-work{
+    .photo-work {
         height: 60px;
     }
 }
 
 /* To opaque the image */
+
 .layer {
     box-shadow: inset 0 0 0 1000px rgba(25, 21, 21, 0.31);
     top: 0;
@@ -232,6 +288,7 @@
 }
 
 /* To use it in hover */
+
 .overlay {
     padding-top: 28px;
     position: absolute;
@@ -243,12 +300,12 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgb(33,33,33, 0.8);
-  }
-  
-  .photo-work:hover .overlay {
+    background-color: rgb(33, 33, 33, 0.8);
+}
+
+.photo-work:hover .overlay {
     opacity: 1;
-  }
+}
 
 .photo-attribute {
     color: #e0e0e0;
@@ -271,8 +328,8 @@
     letter-spacing: 1px;
     font-size: 12px;
 }
-  
-  .text {
+
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -282,7 +339,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 #work1 {
     width: 100%;
@@ -301,7 +358,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
- #work3 {
+
+#work3 {
     width: 100%;
     height: 100%;
     background-image: url("https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -327,6 +385,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 #work6 {
     width: 100%;
     height: 100%;
@@ -334,12 +393,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-} 
-  
-  /* .image {
+}
+
+/* .image {
     display: block;
     width: 100%;
     height: auto;
   } */
-  
-  
