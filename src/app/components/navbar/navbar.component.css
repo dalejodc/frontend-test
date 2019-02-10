@@ -1,57 +1,6 @@
 /********************************************* 
-                 HEADER STYLES
+                 NAVBAR STYLES
 **********************************************/
-
-/* .ui.menu{
-    padding: 20px 10px 0px 10px;
-    position: relative;
-    z-index: 1;
-    background-color: transparent !important;
-    border: none;
-}
-
-.ui.menu .active.item {
-    background: none;
-}
-.ui.menu .item {
-    padding-right: 10px;
-    padding-left: 30px;
-    margin-left: 40px;
-}
-
-div img{
-    width: 80% !important
-}
-
-.ui.menu a.item:hover {
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    color: white;
-    cursor: pointer;
-    font-weight: 600;
-    display: inline-block;
-    padding: 4px 0;
-    margin-left: 30px;
-    position: relative;
-    text-decoration: none;
-    z-index: 1;
-}*/
-/* 
-.ui.menu a.item:hover::after {
-    width: 100%;
-    background-color: #5328fe !important;
-    content: '';
-    height: 100%;
-    position: absolute;
-    left: -50%;
-    top: -50%;
-    opacity: 1;
-    z-index: -1;
-    transition: width 2s;
-    -webkit-transition: width 2s;
-} */
- 
   ul {
     list-style-type: none;
     margin: 0;
