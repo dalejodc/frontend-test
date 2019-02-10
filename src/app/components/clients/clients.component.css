@@ -1,10 +1,11 @@
 /********************************************* 
                 CLIENTS SECTION STYLES
 **********************************************/
+
 .clients-section {
     background-color: var(--light-black);
-    height: 65%;
-    min-height: 65vh;
+    /* height: 100%; */
+    /* min-height: 100vh; */
     background-repeat: no-repeat;
     z-index: -5;
     padding-top: 40px;
@@ -15,9 +16,9 @@
     .clients-section {
         margin-top: 135%; 
         padding-top: 100px;
-        background-color: red;
-        height: 65%;
-        min-height: 65vh;
+        height: 100%;
+         background-color: var(--light-black);
+        min-height: 100vh;
         z-index: -5;
         padding-top: 40px;
     }
@@ -27,9 +28,9 @@
     .clients-section {
         margin-top: 165%; 
         padding-top: 100px;
-        background-color: red;
-        height: 65%;
-        min-height: 65vh;
+        height: 100%;
+         background-color: var(--light-black);
+        min-height: 100vh;
         z-index: -5;
         padding-top: 40px;
     }
@@ -39,9 +40,21 @@
     .clients-section {
         margin-top: 195%; 
         padding-top: 100px;
-        background-color: red;
-        height: 65%;
-        min-height: 65vh;
+        height: 100%;
+         background-color: var(--light-black);
+        min-height: 100vh;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .clients-section {
+        margin-top: 225%; 
+        padding-top: 100px;
+        height: 125%;
+         background-color: var(--light-black);
+        min-height: 125vh;
         z-index: -5;
         padding-top: 40px;
     }
