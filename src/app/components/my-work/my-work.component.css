@@ -1,85 +1,56 @@
 /********************************************* 
                  MY WORKS STYLES
 **********************************************/
-
-.my-work {
-    background-color: var(--light-black);
-    height: 205%;
-    min-height: 230vh;
-    margin: auto;
+.my-work-section {
+    width: 100%;
+    height: -webkit-fit-content;
+    width: 100%;
+    height: -moz-fit-content;
+    padding-bottom: 20%;
     background-repeat: no-repeat;
-    z-index: -5;
-    padding-top: 30%;
-    /* position: absolute; */
+    /* word-break: break-all; */
+    background-color: green;
 }
 
-/*Media queries to resize the background and padding section height*/
+/*Media queries to resize padding summary works*/
+
+.summary-grid{
+    margin-top: 35% !important;
+    margin-left: 15%;
+}
 
 @media screen and (max-width: 991px) {
-    .my-work {
-        background-color: var(--light-black);
-        height: 315%;
-        min-height: 200vh;
-        background-repeat: no-repeat;
-        z-index: -5;
-        padding-top: 40%;
-    }
-    .padding-left {
-        padding-left: 20%;
+    .summary-grid {
+        margin-top: 850px !important;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .my-work {
-        background-color: var(--light-black);
-        height: 445%;
-        min-height: 200vh;
-        background-repeat: no-repeat;
-        z-index: -5;
-        padding-top: 50%;
-    }
-    .padding-left {
-        padding-left: 25%;
+    .summary-grid {
+        margin-left: 265px !important;
+        margin-top: 1850px !important;
     }
 }
 
-@media screen and (max-width: 460px) {
-    .my-work {
-        background-color: var(--light-black);
-        height: 435%;
-        min-height: 200vh;
-        background-repeat: no-repeat;
-        z-index: -5;
-        padding-top: 40px;
+ @media screen and (max-width: 562px) {
+    .summary-grid {
+        margin-left: 135px !important;
+        margin-top: 1850px !important;
     }
-    .padding-left {
+}
+/*
+@media screen and (max-width: 460px) {
+    .summary-grid {
         padding-left: 20%;
     }
 }
 
 @media screen and (max-width: 460px) {
-    .my-work {
-        background-color: var(--light-black);
-        height: 465%;
-        min-height: 300vh;
-        background-repeat: no-repeat;
-        z-index: -5;
-        padding-top: 105%;
-        margin-left: -20%;
-    }
-    .padding-left {
+    .summary-grid {
         padding-left: 4%;
     }
-}
-
-/*Media querie to resize main container in mobile*/
-
-/* @media screen and (max-width: 537px) {
-    .main{
-        left: 60%;
-        margin-left: -5% !important;
-    }
 } */
+
 
 /* Work section title */
 
@@ -158,7 +129,7 @@
 
 /* Works section paragraph */
 
-.photo-paragraph p {
+.paragraph p {
     margin-top: 40px;
     color: white;
     line-height: 30px;
@@ -168,7 +139,7 @@
 }
 
 @media screen and (max-width: 537px) {
-    .photo-paragraph p {
+    .paragraph p {
         margin-top: 40px;
         color: white;
         line-height: 30px;
@@ -180,7 +151,7 @@
 
 /* Summary works styles */
 
-#sumary-work {
+/* #sumary-work {
     margin-top: 400px;
     margin-left: 4%
 }
@@ -204,9 +175,9 @@
         margin-top: 1850px;
         margin-left: -15%
     }
-}
+} */
 
-.summary {
+.summary-count {
     color: white;
     font-family: 'Merriweather', serif;
     font-size: 30px;
@@ -220,10 +191,10 @@
     text-decoration: none;
     z-index: 1;
     margin-top: 70px;
-    padding-left: 160px;
+    /* padding-left: 160px; */
 }
 
-.summary-subtitle {
+.summary-description {
     position: absolute;
     color: white;
     font-family: 'Poppins', serif;
@@ -234,10 +205,10 @@
     padding-top: -10px;
 }
 
-.summary::before {
+.summary-count::before {
     border-bottom: 1px solid white;
-    left: 65px;
-    width: 25%;
+    left: -70px;
+    width: 60px;
     content: '';
     height: 33%;
     position: absolute;
@@ -246,10 +217,10 @@
     z-index: -1;
 }
 
-.summary::after {
+.summary-count ::after {
     background-color: #5328fe !important;
-    left: 152px;
-    width: 45%;
+    left: 0px;
+    width: 100%;
     content: '';
     height: 33%;
     position: absolute;
@@ -413,9 +384,3 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/* .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  } */
