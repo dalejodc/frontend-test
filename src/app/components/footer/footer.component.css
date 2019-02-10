@@ -1,0 +1,42 @@
+/********************************************* 
+            FOOTER SECTION STYLES
+**********************************************/
+
+.footer-section {
+    background-color: var(--light-black);
+    height: 20%;
+    min-height: 20vh;
+    background-repeat: no-repeat;
+    z-index: -5;
+    margin-top: -50px;
+    padding-bottom: 140px;
+}
+
+@media screen and (max-width: 990px) {
+    .footer-section {
+        background-color: var(--light-black);
+        height: 60%;
+        min-height: 60vh;
+        background-repeat: no-repeat;
+        z-index: -5;
+        padding-top: 100px;
+        padding-bottom: 140px;
+        padding-left: 60px;
+    }
+}
+
+.footer-title {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.footer-content {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 14px;
+}
