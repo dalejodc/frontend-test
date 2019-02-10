@@ -3,9 +3,51 @@
 **********************************************/
 .clients-section {
     background-color: var(--light-black);
-    height: 135%;
-    min-height: 100vh;
+    height: 65%;
+    min-height: 65vh;
     background-repeat: no-repeat;
     z-index: -5;
     padding-top: 40px;
+}
+
+/* Media querie to resize the padding */
+@media screen and (max-width: 768px) {
+    .clients-section {
+        margin-top: 135%; 
+        padding-top: 100px;
+        background-color: red;
+        height: 65%;
+        min-height: 65vh;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .clients-section {
+        margin-top: 165%; 
+        padding-top: 100px;
+        background-color: red;
+        height: 65%;
+        min-height: 65vh;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .clients-section {
+        margin-top: 195%; 
+        padding-top: 100px;
+        background-color: red;
+        height: 65%;
+        min-height: 65vh;
+        z-index: -5;
+        padding-top: 40px;
+    }
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
 }
