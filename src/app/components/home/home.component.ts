@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
-    // this.active();
+    this.active();
+    console.log('Init');
   }
 
   // ngOnDestroy(): void {
@@ -19,7 +21,10 @@ export class HomeComponent implements OnInit {
   // }
 
   active() {
-    var element = document.getElementById("home");
-    element.classList.add("active");
+    if (this.router.url === '/') {
+      var element = document.getElementById("home");
+      element.classList.add("active");
+    }
+
   }
 }

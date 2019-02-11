@@ -121,7 +121,7 @@
 
 .work::before {
     content: '03.';
-    color: #0f0f0f;
+    color: #0d0d0d;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 240px;
@@ -137,10 +137,10 @@
 @media screen and (max-width: 380px) {
     .work::before {
         content: '03.';
-        color: #0f0f0f;
+        color: #0d0d0d;
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
-        font-size: 240px;
+        font-size: 200px;
         letter-spacing: 25px;
         left: -90px;
         width: 40%;
