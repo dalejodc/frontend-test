@@ -10,7 +10,7 @@
     height: -moz-fit-content;
     padding: 100px 0px 130px 0px;
     top: -150px !important;
-    background-color: blue;
+    background-color: var(--light-black);
 }
 
 /* Newsletter Title */
@@ -66,6 +66,12 @@
         color: white;
         font-size: 12px;
     }
+
+    /* Extra space on mobile */
+    .ui.action.input{
+        margin-top: 40px;
+    }
+    
 }
 
 .ui.button {

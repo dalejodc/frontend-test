@@ -3,61 +3,13 @@
 **********************************************/
 
 .pricing-section {
-    background-color: var(--light-black);
-    height: 135%;
-    min-height: 100vh;
+    width: 100%;
+    height: -webkit-fit-content;
+    width: 100%;
+    height: -moz-fit-content;
+    padding-bottom: 20%;
     background-repeat: no-repeat;
-    z-index: -5;
-    padding-top: 40px;
-    margin-bottom: 0px;
-    /* position: relative; To overlaping with the next section */
-}
-
-/*Media queries to resize the background section height*/
-
-@media screen and (max-width: 991px) {
-    .pricing-section {
-        background-color: var(--light-black);
-        height: 215%;
-        min-height: 100vh;
-        background-repeat: no-repeat;
-        z-index: -5;
-        padding-top: 40px;
-    }
-    .padding-left {
-        padding-left: 20%;
-    }
-}
-
-@media screen and (max-width: 766px) {
-    .pricing-section {
-        background-color: var(--light-black);
-        height: 345%;
-        min-height: 100vh;
-        background-repeat: no-repeat;
-        z-index: -5;
-        padding-top: 40px;
-    }
-    .padding-left {
-        padding-left: 8%;
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .pricing-section {
-        background-color: var(--light-black);
-        height: 355%;
-        min-height: 100vh;
-        background-repeat: no-repeat;
-        z-index: -5;
-        padding-top: 250%;
-        /* margin-top: 50%; */
-        padding-left: -30% !important;
-        margin-left: -20%;
-    }
-    .padding-left {
-        padding-left: -28% !important;
-    }
+    background-color: var(--light-black);
 }
 
 /*Media querie to resize main container in mobile*/

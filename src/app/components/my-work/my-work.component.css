@@ -11,7 +11,7 @@
     padding-bottom: 20%;
     background-repeat: no-repeat;
     /* word-break: break-all; */
-    background-color: orange;
+    background-color: var(--light-black);
 }
 
 /* ----------------------------------------------------

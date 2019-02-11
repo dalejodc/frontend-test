@@ -10,7 +10,7 @@
     width: 100%;
     height: -moz-fit-content;
     padding-bottom: 12%;
-    background-color: teal;
+    background-color: var(--light-black);
 }
 
 /* Socian nav */
