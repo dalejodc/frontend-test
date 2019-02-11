@@ -10,8 +10,6 @@
     height: -moz-fit-content;
     padding-bottom: 20%;
     background-color: red;
-    word-break: break-all;
-    /*word-break: break-all;*/ 
 }
 
 /*Media querie to resize de font size of the main title*/

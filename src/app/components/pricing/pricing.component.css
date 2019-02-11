@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     z-index: -5;
     padding-top: 40px;
+    margin-bottom: 0px;
     /* position: relative; To overlaping with the next section */
 }
 
@@ -283,6 +284,7 @@
     margin-bottom: 0px;
 }
 
+/* Explore link */
 .explore {
     color: white;
     right: 0;
