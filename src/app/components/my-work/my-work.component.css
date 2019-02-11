@@ -63,19 +63,6 @@
         opacity: 1;
         z-index: -1;
     }
-    .title::after {
-        content: '03.';
-        color: var(--dark-black-2);
-        font-family: 'Poppins', sans-serif;
-        font-size: 190px !important;
-        letter-spacing: 15px !important;
-        left: -70px !important;
-        width: 40%;
-        height: 33%;
-        position: absolute;
-        top: 330%;
-        z-index: -2;
-    }
 }
 
 .title::before {
@@ -90,20 +77,6 @@
     z-index: -1;
 }
 
-.title::after {
-    content: '03.';
-    color: var(--dark-black-2);
-    font-family: 'Poppins', sans-serif;
-    font-size: 240px;
-    letter-spacing: 25px;
-    left: -90px;
-    width: 40%;
-    height: 33%;
-    position: absolute;
-    top: 330%;
-    z-index: -2;
-}
-
 /* ---------------------------------------------------- 
             Works section paragraph 
 ----------------------------------------------------*/
@@ -115,6 +88,7 @@
     z-index: 1;
     position: relative;
     padding-left: 160px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 537px) {
@@ -125,6 +99,7 @@
         z-index: 1;
         position: relative;
         padding-left: 40px;
+        z-index: 1;
     }
 }
 
@@ -136,33 +111,67 @@
     height: 190px;
 }
 
-.gallery-grid {
-    margin-top: 9%;
+/* Class to add background number */
+
+.work {
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
 }
 
-/* Photo work image and grid media queries */
+.work::before {
+    content: '03.';
+    color: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 240px;
+    letter-spacing: 25px;
+    left: -90px;
+    width: 40%;
+    height: 33%;
+    position: absolute;
+    top: 105%;
+    z-index: -2;
+}
+
+@media screen and (max-width: 380px) {
+    .work::before {
+        content: '03.';
+        color: #0f0f0f;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 240px;
+        letter-spacing: 25px;
+        left: -90px;
+        width: 40%;
+        height: 33%;
+        position: absolute;
+        top: 105%;
+        z-index: -2;
+    }
+}
+
+/* @media screen and (max-width: 537px) {} */
+
+.gallery-grid {
+    margin-top: 85px;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+/* Photo grid media queries to resize*/
 
 @media screen and (max-width: 985px) {
     .photo-work {
         height: 130px;
-    }
-    .gallery-grid {
-        margin-top: 18%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo-work {
         height: 60px;
-    }
-    .gallery-grid {
-        margin-top: 25%;
-    }
-}
-
-@media screen and (max-width: 342px) {
-    .gallery-grid {
-        margin-top: 75%;
     }
 }
 
