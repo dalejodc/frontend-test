@@ -66,14 +66,18 @@ q:before {
     padding: 40px;
 }
 
+.image-box{
+    margin: 30px;
+}
+
 /* Text */
 
 .experience-year {
     color: white;
     font-family: Poppins, sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 11px;
     margin: 0px;
     text-transform: uppercase;
 }
@@ -95,9 +99,10 @@ q:before {
 
 
 .experience-description {
-      padding-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 25px;
     color: white;
     align-content: center;
@@ -109,13 +114,18 @@ q:before {
 }
 
 .experience-description:before {
-    border-top: 1px solid white;
+    border-top: 2px solid white;
     left: -35px;
     width: 60px;
     content: '';
     height: 33%;
     position: absolute;
-    top: 7px;
+    top: 9px;
     opacity: 1;
     z-index: -1;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
 }
