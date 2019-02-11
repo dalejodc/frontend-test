@@ -153,10 +153,18 @@ img{
     letter-spacing: 1px;
 }
 
-
 .summary-description{
     color:#5E5E5E;
     font-weight: 600;
     font-size: 11px;
     letter-spacing: 1px;
+}
+
+.line {
+    border-top: 2px solid white;
+    left:0%;
+    width: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
 }
