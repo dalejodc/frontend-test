@@ -48,8 +48,9 @@
     margin-bottom: 0;
 }
 
+/* Quote */
+
 q {
-    /* display: block; */
     border-color: #eee;
     padding: 1.5em 0 0.5em;
     margin: 1.5em 0;
@@ -59,4 +60,62 @@ q {
 
 q:before {
     content: '\201E';
+}
+
+.experience-info-box {
+    padding: 40px;
+}
+
+/* Text */
+
+.experience-year {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.experience-name {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+
+.experience-description {
+      padding-left: 50px;
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.experience-description:before {
+    border-top: 1px solid white;
+    left: -35px;
+    width: 60px;
+    content: '';
+    height: 33%;
+    position: absolute;
+    top: 7px;
+    opacity: 1;
+    z-index: -1;
 }
