@@ -273,8 +273,8 @@
 .card-price {
     color: white;
     font-family: 'Merriweather', serif;
-    font-size: 25px !important;
-    letter-spacing: 2px;
+    font-size: 20px !important;
+    letter-spacing: 1px;
     color: white;
     align-content: center;
     margin-top: 60px !important;
@@ -319,12 +319,12 @@
 }
 
 .explore::after {
-    width: 100%;
+    width: 30px;
     border-top: 1px solid white;
     content: '';
     height: 50%;
     position: absolute;
-    left: -120%;
+    left: -40px;
     top: 50%;
     opacity: 1;
     z-index: -1;
