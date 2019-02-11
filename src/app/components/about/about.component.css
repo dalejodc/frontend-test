@@ -135,13 +135,11 @@ q:before {
     position: relative;
     text-decoration: none;
     z-index: 1;
-    /* margin-top: 0px; */
     margin-bottom: 170px;
     white-space: pre-wrap;
 }
 
 #one.image-box:before {
-    /* background: url('../../../assets/violet-dots.svg'); */
     left: 0%;
     color:white;
     font-family: 'Poppins', sans-serif;
@@ -172,7 +170,6 @@ q:before {
 }
 
 #two.image-box:before {
-    /* background: url('../../../assets/violet-dots.svg'); */
     right: -10%;
     color:white;
     font-family: 'Poppins', sans-serif;
@@ -203,7 +200,6 @@ q:before {
 }
 
 #three.image-box:before {
-    /* background: url('../../../assets/violet-dots.svg'); */
     left: 0%;
     color:white;
     font-family: 'Poppins', sans-serif;
@@ -297,8 +293,9 @@ img {
     background-position: center;
 }
 
-.false {
-    /* border: 1px solid red; */
+
+/* To make div height */
+.false-div {
     height: 30em;
     line-height: 1.25;
 }
