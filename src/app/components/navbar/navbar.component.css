@@ -1,28 +1,42 @@
 /********************************************* 
                  NAVBAR STYLES
 **********************************************/
-  ul {
+
+#navbar {
+    overflow: hidden;
+    background-color: var(--light-black);
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 20px 20px 0px 20px;
     overflow: hidden;
     background-color: transparent;
     z-index: -2;
-  }
+}
 
-  li {
+li {
     float: right;
-  }
+}
 
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
-  li a:hover {
+li a:hover {
     /* display: block; */
     /* height:  50% !important; */
     /* width: 50%; */
@@ -30,21 +44,9 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
-  /* li a:hover::before {
-    width: 60%;
-    background-color: green !important;
-    content: '';
-    height: 55%;
-    position: absolute;
-    left: -50%;
-    top: 0;
-    opacity: 1;
-    z-index: -1;
-  } */
-
-  .active {
+.active {
     border: 0;
     border-radius: 0;
     color: white;
@@ -55,7 +57,7 @@
     position: relative;
     text-decoration: none;
     z-index: 1;
-  }
+}
 
 .active::after {
     width: 50%;
@@ -67,4 +69,4 @@
     top: 0;
     opacity: 1;
     z-index: -1;
-  } 
+}
