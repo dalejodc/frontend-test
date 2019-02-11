@@ -60,3 +60,16 @@ h1, h2, h3, h4, h5, h6 {
 .ui.grid {
     margin-right: 0px !important;
 }
+
+/* To hide an element */
+@media only screen and (max-width: 992px) {
+    .hide-on-med-and-down {
+      display: none !important;
+    }
+  }
+
+  @media only screen and (min-width: 993px) {
+    .hide-on-large-only {
+      display: none !important;
+    }
+  }
