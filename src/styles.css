@@ -10,10 +10,28 @@
     --violet: #5328fe;
 }
 
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
+body,
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Text */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+/* Colors */
 .light-black {
     background-color: var(--light-black) !important;
 }
+
 .dark-black {
     background-color: var(--dark-black) !important;
 }
@@ -36,7 +54,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
-    margin-left: -50px; 
+    margin-left: -50px;
 }
 
 .ui.grid {
