@@ -330,7 +330,6 @@
     font-family: 'Merriweather', serif;
     font-size: 30px;
     letter-spacing: 4px;
-    color: white;
     align-content: center;
     display: inline-block;
     letter-spacing: 6px;
@@ -339,7 +338,6 @@
     text-decoration: none;
     z-index: 1;
     margin-top: 70px;
-    /* padding-left: 160px; */
 }
 
 .summary-description {
@@ -349,13 +347,13 @@
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 1px;
-    margin-top: -8px;
-    padding-top: -10px;
+    margin-top: 0px;
+    padding-top: 10px;
 }
 
 .summary-count::before {
     border-bottom: 1px solid white;
-    left: -70px;
+    left: -80px;
     width: 60px;
     content: '';
     height: 33%;
@@ -367,12 +365,12 @@
 
 .summary-count ::after {
     background-color: #5328fe !important;
-    left: 0px;
-    width: 100%;
+    left: -5px;
+    width: 200%;
     content: '';
-    height: 33%;
+    height: 65%;
     position: absolute;
-    top: 57%;
+    top: -56%;
     opacity: 1;
     z-index: -1;
 }
