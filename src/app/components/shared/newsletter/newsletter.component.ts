@@ -27,9 +27,9 @@ export class NewsletterComponent implements OnInit {
     send() {
         
         console.log(this.user);
-        console.log(this.user.name);
+        console.log(this.user);
         // this.message = true;
-        this.user.name = '';
+        this.user = '';
     }
 
 }
