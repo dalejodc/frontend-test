@@ -16,6 +16,10 @@
         letter-spacing: 4px;
         cursor: pointer;
         transition: 1s;
+        line-height: 20px !important;
+    }
+    .full-width-mobile-menu {
+        padding-top: 35px !important;
     }
 }
 
