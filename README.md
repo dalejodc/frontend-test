@@ -1,27 +1,53 @@
-# FrontendTest
+# 🎒 FrontendTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+Project to pass from PSD to responsive SPA with Angular 7 + Typescript + SemanticUI.
+<br>
+<br>
+<br>
+
+
+
+![dev_pack](https://user-images.githubusercontent.com/36966980/52614778-65b6f680-2e58-11e9-98b2-5927c3370143.png)
+<br>
+<br>
+<br>
+
+
+
+Check the live demo [here](https://front-end-test-1.herokuapp.com/)
+
+![imagen](https://user-images.githubusercontent.com/36966980/52614701-2d171d00-2e58-11e9-8bfb-6a734c146d94.png)
+
+## Run in local
+Clone or download the repository.
+```
+git clone https://github.com/dalejodc/frontendt-test.git
+```
+## Download dependencies
+To download the dependencies get into the folder project and execute:
+```
+npm install
+```
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Scaffolding
+For now, the app is built with three principal components. Every principal component has subcomponents. Also, there are components that can be shared with other components.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![scaffolding](https://user-images.githubusercontent.com/36966980/52615848-399d7480-2e5c-11e9-9678-4072161b181b.png)
 
-## Running unit tests
+## Free resources
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* [Pexels](https://www.pexels.com/) - Free stock photos shared by talented photographers.
+* [Freepick](https://www.freepik.com/) - Free Vectors, Stock Photos, PSD and Icons.
 
-## Running end-to-end tests
+## Some tools
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Git
+* VSCode
+* Firefox
+* Heroku
