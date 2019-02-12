@@ -12,7 +12,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.active();
-    console.log('Init');
   }
 
   // ngOnDestroy(): void {

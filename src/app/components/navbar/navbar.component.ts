@@ -8,6 +8,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   sticky: boolean = false;
+  showMobileMenu:boolean = false;
 
   constructor() { }
 
@@ -20,6 +21,14 @@ export class NavbarComponent implements OnInit {
 
     let sticky = navbar.offsetTop;
     navbar.classList.add("sticky");
+  }
+
+  show(){
+      this.showMobileMenu = true;
+  }
+  
+  hide(){
+      this.showMobileMenu =false;
   }
 
 }

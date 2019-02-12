@@ -1,6 +1,21 @@
 <!-- ------------------------------------ 
           NAVBAR COMPONENT
  ------------------------------------ -->
+ <div class="full-width-mobile-menu" *ngIf="showMobileMenu">
+    <div class="ui grid">
+      <div class="sixteen column center aligned animated" id="mobile">
+        <h1><a [routerLink]="['/home']">Home</a></h1>
+        <h1><a [routerLink]="['/about']">About me</a></h1>
+        <h1><a [routerLink]="['/contact']">Contact</a></h1>
+        <h1><a [routerLink]="['/work']">Works</a></h1>
+        <h1><a [routerLink]="['/journal']">Journal</a></h1>
+        <h1><a [routerLink]="['/news']">News</a></h1>
+        <br>
+        <br>
+        <a><i class="white-text big close icon" (click)="hide()" style="cursor: pointer;"></i></a>
+      </div>
+    </div>
+  </div>
 
 <ul id="navbar">
   <!-- Desktop -->
@@ -16,11 +31,15 @@
       </a></div>
   </div>
   <!-- Mobile -->
-  <div class="hide-on-large-only">
-    <li> <a href="#"><i class="white-text bars icon"></i></a></li>
+  <div class="hide-on-large-only" *ngIf="!showMobileMenu">
+    <li><i class="white-text bars icon" (click)="show()" style="cursor: pointer;"></i></li>
     <div class="logo"><a [routerLink]="['/']">
         <img src="../../../assets/logo.svg" width="100%">
       </a></div>
   </div>
 
+  
+
 </ul>
+
+
