@@ -54,6 +54,30 @@
     color: white;
 }
 
+.ui.input>input.ng-invalid.ng-touched{ 
+	border-color: #ef5350 ;
+	color: #ef5350  !important;
+	-webkit-appearance: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.not-allow{
+    cursor: not-allowed !important;
+    color:  #ef5350  !important;
+    border: 1px solid #ef5350 !important;
+}
+
+.disable{
+    cursor: not-allowed !important;
+}
+
+.allow{
+    color:  white  !important;
+    border: 5px solid var(--violet) !important;
+    background-color: var(--violet) !important;
+}
+
 /* Media querie to resize button width */
 @media screen and (max-width: 420px) {
     .ui.input>input{
@@ -94,3 +118,9 @@
     padding-left: 28px;
     /* margin-right: 20% !important; */
 }
+
+.errors{
+    margin-top: 60px;
+    color: white;
+}
+
