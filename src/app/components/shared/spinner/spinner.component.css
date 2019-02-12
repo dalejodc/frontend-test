@@ -1,0 +1,5 @@
+.spinner{
+    height: 100%;
+	min-height: 91vh;
+    background-color: var(--light-black);
+}

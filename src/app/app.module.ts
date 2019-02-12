@@ -16,6 +16,7 @@ import { NewsletterComponent } from './components/newsletter/newsletter.componen
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
+import { SpinnerComponent } from './components/shared/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AboutComponent } from './components/about/about.component';
     NewsletterComponent,
     FooterComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,
