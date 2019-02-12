@@ -15,7 +15,7 @@
 
 
 				<div class="ui action input" [ngClass]="{'animated shake': (name.touched && !name.valid)}">
-					<input type="text" name="name" [(ngModel)]="user.name" #name="ngModel" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+					<input type="text"  [(ngModel)]="user.name" #name="ngModel" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
 						placeholder="Enter your email address">
 					<button class="ui button " (click)="send()" [ngClass]="{'not-allow': name.touched && !name.valid, 'allow':name.valid, 'disable':  !name.valid}">OK</button>
 				</div>

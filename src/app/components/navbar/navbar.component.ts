@@ -20,11 +20,16 @@ export class NavbarComponent implements OnInit {
     onWindowScroll($event) {
         let navbar = document.getElementById("navbar");
 
-        let sticky = navbar.offsetTop;
-        navbar.classList.add("sticky");
+
+        if (window.scrollY > 53) {
+            navbar.classList.add("sticky", "animated", "fadeInDown");
+        } else {
+            navbar.classList.remove("sticky", "animated", "fadeOutUp");
+        }
+   
     }
 
-    
+
     goTo(route: string) {
         // To check if is the same route
         if (this.router.url === `/${route}`) {
