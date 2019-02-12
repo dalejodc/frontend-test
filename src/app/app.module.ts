@@ -19,6 +19,7 @@ import { AboutComponent } from './components/about/about.component';
 import { SpinnerComponent } from './components/shared/spinner/spinner.component';
 import { WorksComponent } from './components/works/works.component';
 import { JournalComponent } from './components/journal/journal.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { JournalComponent } from './components/journal/journal.component';
     SpinnerComponent,
     WorksComponent,
     JournalComponent,
+    NewsComponent,
   ],
   imports: [
     BrowserModule,

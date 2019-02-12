@@ -1,0 +1,14 @@
+.news-section {
+	height: 100%;
+	min-height: 91vh;
+	background-repeat: no-repeat;
+    background: var(--light-black);
+    padding-top: 160px;
+    /* padding-bottom: 40%; */
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    letter-spacing: 4px
+}
