@@ -124,6 +124,13 @@ li a:hover {
     z-index: -1;
 }
 
+.active-mobile {
+    width: 50%;
+    background-color: var(--light-black);
+    height: 55%;
+    right: 50%;
+}
+
 .logo {
     float: left;
     padding-left: 20px;
