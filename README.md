@@ -1,6 +1,6 @@
 # 🎒 FrontendTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6. A project to pass from PSD to responsive SPA with Angular 7 + Typescript + SemanticUI.
+Project to pass from PSD to responsive SPA with Angular 7 + Typescript + SemanticUI.
 <br>
 <br>
 <br>
