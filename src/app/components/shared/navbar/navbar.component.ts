@@ -21,10 +21,10 @@ export class NavbarComponent implements OnInit {
         let navbar = document.getElementById("navbar");
 
 
-        if (window.scrollY > 53) {
-            navbar.classList.add("sticky", "animated", "fadeInDown");
+        if (window.scrollY > 73) {
+            navbar.classList.add("sticky", "animated", "slideInDown");
         } else {
-            navbar.classList.remove("sticky", "animated", "fadeOutUp");
+            navbar.classList.remove("sticky", "animated", "slideInDown");
         }
    
     }
