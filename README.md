@@ -14,7 +14,7 @@ Project to pass from PSD to responsive SPA with Angular 7 + Typescript + Semanti
 
 
 
-Check the live demo [here](https://front-end-test-1.herokuapp.com/)
+Check the live demo [here](https://oliver-page.herokuapp.com/)
 
 ![imagen](https://user-images.githubusercontent.com/36966980/52614701-2d171d00-2e58-11e9-8bfb-6a734c146d94.png)
 
